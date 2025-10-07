@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    /* Ganti warna latar belakang sesuai selera */
+    background: linear-gradient(to right, #F5EFEB, #C8D9E6); 
+    color: #B1C9EF;
+    text-align: center;
+    overflow: hidden; /* Mencegah scroll karena confetti */
+}
+
+.container {
+    background-color: #8AAEE0;
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 500px;
+}
+
+#judul-ucapan {
+    color: #93A0C6; /* Warna ceria */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    /* Animasi sederhana */
+    animation: pulse 1.5s infinite alternate;
+}
+
+.birthday-card {
+    padding: 20px;
+    border: 3px solid #E3ECFF;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #B9D3FF;
+}
+
+#pesan-utama {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.signature {
+    font-style: italic;
+    color: #395886;
+    margin-top: 10px;
+}
+
+#tombol-kejutan {
+    background-color: #BEA2D7; /* Warna tombol hijau */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#tombol-kejutan:hover {
+    background-color: #4569AD;
+}
+
+/* Keyframe untuk animasi judul */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
