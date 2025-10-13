@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         judulUcapan.textContent = "SWEET 17 CANTII! 🥳";
         pesanUtama.innerHTML = "Semoga semua cita citamu akan menjadi kenyataan! enjoy ur life. just a 'lil surprise for u! ✨";
         tombolKejutan.textContent = "🥳 CHEERRSS! 🥳";
-        tombolKejutan.style.backgroundColor = '#f44336'; // Ganti warna tombol
+        tombolKejutan.style.backgroundColor = '#BEA2D7'; // Ganti warna tombol
 
         // Nonaktifkan tombol setelah diklik (opsional)
         tombolKejutan.disabled = true;
