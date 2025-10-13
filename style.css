@@ -22,10 +22,9 @@ body {
 }
 
 #judul-ucapan {
-    color: #93A0C6; /* Warna ceria */
+    color: #93A0C6; 
     font-size: 2.5em;
     margin-bottom: 20px;
-    /* Animasi sederhana */
     animation: pulse 1.5s infinite alternate;
 }
 
@@ -50,7 +49,7 @@ body {
 }
 
 #tombol-kejutan {
-    background-color: #BEA2D7; /* Warna tombol hijau */
+    background-color: #BEA2D7; 
     color: white;
     border: none;
     padding: 12px 25px;
