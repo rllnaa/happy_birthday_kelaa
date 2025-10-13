@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // Perubahan pesan setelah kejutan
-        judulUcapan.textContent = "SWEET 17 SAYANGG! 🥳";
-        pesanUtama.innerHTML = "Semua mimpi terliarmu akan menjadi kenyataan! Nikmati hari yang luar biasa ini. Ini kejutan kecil dariku! ✨";
+        judulUcapan.textContent = "SWEET 17 CANTII! 🥳";
+        pesanUtama.innerHTML = "Semoga semua cita citamu akan menjadi kenyataan! enjoy ur life. just a 'lil surprise for u! ✨";
         tombolKejutan.textContent = "🥳 CHEERRSS! 🥳";
         tombolKejutan.style.backgroundColor = '#f44336'; // Ganti warna tombol
 
