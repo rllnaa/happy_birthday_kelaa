@@ -22,7 +22,7 @@ body {
 }
 
 #judul-ucapan {
-    color: #93A0C6; 
+    color: #395886; 
     font-size: 2.5em;
     margin-bottom: 20px;
     animation: pulse 1.5s infinite alternate;
@@ -44,7 +44,7 @@ body {
 
 .signature {
     font-style: italic;
-    color: #395886;
+    color: #628ECB;
     margin-top: 10px;
 }
 
